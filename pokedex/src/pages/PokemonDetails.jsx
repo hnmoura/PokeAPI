@@ -78,7 +78,7 @@ function Details() {
               ?.front_default || pokemon.sprites.front_default
           }
           alt={pokemon.name}
-          style={{ width: '250px' }}
+          style={{ width: '250px' }} //Serve para padronizar o tamanho da imagem, porque os pokemons têm tamanhos diferentes
         />
 
       </div>

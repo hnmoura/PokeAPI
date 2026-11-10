@@ -140,7 +140,7 @@ function Home() {
   function handleTypeChange(event) {
 
     setSelectedType(event.target.value)
-    setPage(1)
+    setPage(1) // A listagem começa na primeira página ao alterar o filtro, de maneira que os pokemons não sejam ignorados
 
   }
 
@@ -170,7 +170,7 @@ function Home() {
         Pokédex
       </h3>
 
-      {/* Busca por nome */}
+      {/* Aqui começa a busca por nome */}
       <div className="input-field">
 
         <input
@@ -186,7 +186,7 @@ function Home() {
 
       </div>
 
-      {/* Filtro por tipo */}
+    {/* Aqui começa a busca por tipo */}
       <div className="input-field">
 
         <select

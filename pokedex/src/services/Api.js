@@ -34,6 +34,7 @@ export async function getPokemonTypes() {
   return response.json()
 }
 
+
 export async function getPokemonByType(type) {
   const response = await fetch(`${API_URL}/type/${type}`)
 

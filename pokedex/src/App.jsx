@@ -1,5 +1,4 @@
-
-import { Routes, Route, Link } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import PokemonDetails from './pages/PokemonDetails'
 import Home from './pages/Home'
 
